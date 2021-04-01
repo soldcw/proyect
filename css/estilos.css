@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+.cajainicio {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center
+}
+
+.cajainicio a {
+    color: aliceblue;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;}
+
+.cajainicio img {
+    width: 100px;
+    height: 100px;}
+
+.inicio {
+    width: 210vh;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction:column}
+
+article {
+    width: 210vh;
+    height: 80vh
+}
+
+header {
+    width: 210vh;
+    height: 25vh
+}
+
+section {
+    width: 210vh;
+    height: 25vh;
+    background-color: azure
+}
+
+@import url('https://fonts.googleapis.com/css2? family = Akaya + Telivigala & display = swap');
+
+.inicio h1 {
+color:whitesmoke;
+    font-size:70px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-block-end: 30px; margin-top: 15px;
+}
+
+.inicio h2 {
+    color:whitesmoke;
+    text-align: center;
+    margin-block-end: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+
+h3 {
+    color:cornsilk; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    margin-left: 100px;
+    display: inline-block
+}
+
+.piedepagina {
+    background-color: black;
+    width: 210vh;
+    height: 40vh
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.redes a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: cornsilk 
+}
+
+.neutral {
+    color: darkblue;
+}
+
+.sobremi {
+    display: flex; justify-content: first baseline;  
+}
+.sobremi h1 {
+    font-size: 30px;
+}
+.parrafo {
+    display: flex; 
+    justify-content:center; 
+    flex-direction: column; 
+    color: black; 
+    font-size: 20px; 
+    font-family: 'Akaya Telivigala', cursive  
+}
+
+.servicios {
+    height: 80vh;
+    background-color: azure; display: flex; justify-content: center;
+    flex-direction: column; margin: auto;
+    align-items: center;
+}
+
+.sesionesdiferentes {
+    background-color: aqua;
+    height: 300px;
+    display:grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr);
+    border: 1px solid;
+    
+}
+.sesionesdiferentes h2 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   display: grid; grid-column: 1/5;
+}
+.sesionesdiferentes img {
+    width: 100px;
+    height: 100px
+}
+.imagendevocal {
+    margin-left: 130px;
+}
+
+.sumatealblog {
+    background: rgb(0,50,255);
+background: radial-gradient(circle, rgba(0,50,255,1) 0%, rgba(201,161,234,1) 52%, rgba(162,32,226,1) 84%, rgba(172,0,212,1) 100%);
+    display: flex; justify-content: center;
+    flex-direction: column; margin: auto; align-items: center;
+}
+.sumatealblog h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
+.sumatealblog h2 {
+    font-family:'Courier New', Courier, monospace;
+    font size: 5px
+}
+
+.fondocontacto {
+    background-color:cornflowerblue
+}
+
+form {
+    background-color: aqua;
+    height: 300px;
+    display: flex; justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+}
+.imagen1 {
+    transition: all 3 seg;
+    }
+
+    .imagen1:hover {
+        transform: scale(2.5)
+    }
+
+    .imagen2 {
+        transition: all 3 seg;
+        }
+    
+    .imagen2:hover {
+            transform: scale(2.5)
+        }
+
+    .imagen3 {transition: all 3 seg;}
+    .imagen3:hover{ 
+        transform: scale(2.5)
+        }
+        
+
+    .imagen4 {
+    transition: all 3 seg;
+                }
+            
+    .imagen4:hover {
+    transform: scale(2.5)
+                }
+              
+            
+   .loguito img {
+        width: 100px;
+        height: 100px;
+        animation-direction: normal;
+        animation-duration: 10 seg;
+        animation-name: loguito;
+             }
+                
+            @keyframes loguito { 
+            0% {transform: rotate (20 deg);}
+            100% {transform:rotate(180 deg)}
+             } 
+
+    @media(max-width: 768px) {.cajainicio {
+        display: flex;
+        background-color:rgba(0,50,255,1);
+        justify-content: space-around;
+        align-items: center
+
+    }
